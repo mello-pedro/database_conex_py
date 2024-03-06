@@ -1,4 +1,5 @@
 import psycopg2
+import csv
 
 class Conex_database:
     def __init__(self, host: str, port: str, database: str, user: str, password: str):
